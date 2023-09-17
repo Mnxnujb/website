@@ -1,0 +1,63 @@
+{
+    list-style: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+ul>li>a{
+    color: blue;
+    text-decoration: none;
+}
+body {
+    height: 100px;
+}
+header{
+    background-color:skyblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   align-items: center;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    font-size: 1.2rem;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 900;
+    color: darkblue;
+
+}
+footer{
+    color:white;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 1400px;
+    padding: 30px;
+    
+    
+}
+
+.text-input{
+    color: black;
+
+}
+.image-place{
+    width: 1400px;
+    height: 15rem;
+    
+}
+.text-input2{
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+}
